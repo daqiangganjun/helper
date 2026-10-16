@@ -2,9 +2,6 @@ name: Sync upstream
 
 on:
   workflow_dispatch:
-  schedule:
-    # 每天 UTC 02:00 运行一次；可按需修改为其他 cron 频率。
-    - cron: '0 2 * * *'
 
 permissions:
   contents: write
